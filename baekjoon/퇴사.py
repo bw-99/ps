@@ -20,7 +20,6 @@ def recurse(date):
     
     fmax_rev = 0
     for d in range(date, N):
-        # print(date, d)
         max_rev = 0
         if(COST_LST[d] != -1):
             max_rev = COST_LST[d]
