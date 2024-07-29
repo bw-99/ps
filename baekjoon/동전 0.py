@@ -8,7 +8,6 @@ NUM_LST = []
 for _ in range(N):
     NUM_LST.append(int(input().strip()))
 
-
 cnt = 0
 for i in range(N-1, -1, -1):
     cnt += K // NUM_LST[i]
